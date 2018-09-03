@@ -25,7 +25,7 @@ function longestWord(sentence) {
         // Return the word
         return longestWordArr[0]
     } else {
-        return longestWordArr; // return full array
+        return longestWordArr; 
     }
     console.log(sorted);
 
@@ -37,3 +37,4 @@ function longestWord(sentence) {
 const output = longestWord('Hello Elizabeth, my name is Herold');
 
 console.log(output);
+
