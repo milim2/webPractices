@@ -4,9 +4,12 @@
 
 function flattenArray(arrays) {
     // Solution 1
-    return arrays.reduce(function(a,b) {
-        return a.concat(b);
-    });
+    // return arrays.reduce(function(a,b) {
+    //     return a.concat(b);
+    // });
+
+    // Solution 2
+    return [].concat.apply([], arrays);
 }
 
 // Call function
