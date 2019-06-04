@@ -1,5 +1,31 @@
+<--!
+     Every user on your website has an image avatar that is displayed when they post a comment. You want to style these images differently from other images on your site. Add a CSS class named avatar that fulfils the following requirements:
 
-
+The avatar's border is rounded, so that it appears as a circle.
+The avatar's width and height are both 150px.
+The avatar has a solid border, has a width of 2px, and be colored gray.
+For example, the avatar in the template should look like:
+-->
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Avatar</title>
+    <style>
+      /* Write your CSS solution here (do not edit the surrounding HTML) */
+      .avatar {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        border: solid 2px gray;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="avatar" src="https://goo.gl/khGCrk" alt="avatar" />
+  </body>
+</html>
 
 
 
